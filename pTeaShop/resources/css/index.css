@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+    /*
+        background: rgb(0 100 0 / 0.1) !important;
+    */
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    font-size: 23px;
+}
+
+nav {
+    display: flex;
+    height: 69px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+}
+
+.logo {
+    height: 50px;
+    margin-left: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 20px;
+    align-items: flex-end;
+    color: seashell;
+}
+
+nav ul li a {
+    text-decoration: undeline;
+    color: seashell;
+}
+
+.banner {
+    background-image: url("../images/img-mission-background.jpg");
+    height: 700px;
+    width: 1200px;
+    background-size: cover;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+  }
+
+.banner-text {
+    background: black;
+    display: flex;
+    flex-flow: column;
+    padding: 5px 5px;
+    position: absolute;
+    width: 1200px;
+    height: 140px;
+    align-content: center;
+    justify-content: space-around;
+}
+
+h2, h4 {
+    text-align: center;
+}
+
+.banner-text h4 {
+    margin-top: 2px;
+}
+
+.container-tea {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+section .tea-section {
+    width: 1000px;
+}
+
+.container-img div aside {
+    margin-top: 10px;
+}
+
+.container-img {
+    width: 1000px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box img {
+    height: 200px;
+    width: 300px;
+}
+
+.locations {
+    background-image: url("../images/img-locations-background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    top: 70px;
+}
+
+.locations > h2 {
+    padding: 30px;
+}
+
+.flex-boxes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box-1 {
+    background: black;
+    opacity: 1;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer {
+    position: relative;
+    top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 30px;
+    height: 200px;
+}
+
+.copyright {
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+}
+
+.dummy {
+    height: 200px;
+}
